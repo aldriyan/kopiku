@@ -1,0 +1,89 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style Header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Style Navigation Links */
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style Footer */
+
+footer {
+    background-color: #333;
+    /* Warna latar belakang footer */
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    /* Anda bisa mengganti menjadi 'absolute' jika perlu */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer .container {
+    text-align: center;
+}
+
+.catalog-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.catalog-table th,
+.catalog-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.catalog-table th {
+    background-color: #f2f2f2;
+}
+
+.catalog-table tr:hover {
+    background-color: #f5f5f5;
+}
